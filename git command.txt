@@ -1,0 +1,83 @@
+why git use -- kno application jookhon update kora hoy an example - akta application jar version 1-10
+update kora hlo akhon oi application akta feture version 7 projonto kaj korche but 8 tahakla kor che na 
+to tokhon version 7 app ta downlode korte parbo jodi git tar modhe use kora hoya tahke 
+ta na hole change korei jabo korei jabo than jkhon previous version ta ar pabo na.
+
+
+working - stage - commit 
+
+To check git status this folder - git init
+To stage folders - git add .
+To check git status - git status
+To commit - git commit -m "Version 1"
+to check how many times which file updates - git log
+ 
+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
+git remote set-url origin https://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@github.com/coderbisw/gitpractice
+
+deta from git to github - git push origin master
+
+email dakte use kora hoy- git config --global user.email
+name dakte use kora hoy- git config --global user.name
+
+if you want to see change file but what! see into inside - git diff file 
+name if you want to see which file and what change - git diff 
+
+when you staged and see what kind of changed - git diff --staged
+if you want to change starting point of the file when you turned on 
+the computer power - git reset file name than - git checkout file name (Make
+sure yo dont commit befor)
+if you undo starting point of those files together - git checkout .
+
+if you see hidden git folder than - ls -la
+
+if you download any project through git --- open github than 
+any project click than press code button than copy ssh url than creat a new
+folder which is a destination folder then right click open git bush than
+type - git clone past ssh url all file downloaded in this folder
+
+if you ignore some files because of some files you can not push git hub 
+because some files are so many big as well as you dont have to get it - 
+touch .gitignore
+
+make a new Repositories than link - open git bush than - git remote add 
+origin past ssh link than if you want to send git hub than - git push 
+origin master 
+
+if you a copy as it is make sure you have branch 
+making branch - git branch branch name - staged-commit - push
+if you see how many branch and which one is active- git branch
+if you switch branch from now to than - git checkout master
+if you marge it - git merge branch name
+
+How to delete branch in git - git branch -d branch name
+
+How to delete branch in github - git push origin --delete branch name
+
+.md file contains Repositorie name and some information
+
+
+git push -u origin master
+git push origin --delete main
+
+
+
+
+if you want another folder use push pull etc than
+make classic token
+satting - developer setting - classic token
+
+password :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
+usernmae - coderbisw
+
+How to generate SSh keys in new device/computer - ssh-keygen -t ed25519 -C "biswajitlohar.bol@gmail.com"
+enter than enter than eval $(ssh-agent -s) than ssh-add ~/.ssh/id_ed25519 than past it on github clip < ~/.ssh/id_ed25519.pub
+than automatically copy ssh key so go back ssh agent and past it on ssh key and add sh keys
+ 
+
+
+
+
+
+
+
