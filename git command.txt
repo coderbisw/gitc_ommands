@@ -14,6 +14,8 @@ to check how many times which file updates - git log
  
 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
 git remote set-url origin https://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@github.com/coderbisw/gitpractice
+If you dont give userid and password every times than copy ssh insted of https id
+
 
 deta from git to github - git push origin master
 
@@ -70,9 +72,15 @@ satting - developer setting - classic token
 password :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
 usernmae - coderbisw
 
+if you dont do that then copy ssh insted of Https
+
 How to generate SSh keys in new device/computer - ssh-keygen -t ed25519 -C "biswajitlohar.bol@gmail.com"
 enter than enter than eval $(ssh-agent -s) than ssh-add ~/.ssh/id_ed25519 than past it on github clip < ~/.ssh/id_ed25519.pub
 than automatically copy ssh key so go back ssh agent and past it on ssh key and add sh keys
+
+If you remove origin than type git remote rm origin
+
+
  
 
 
